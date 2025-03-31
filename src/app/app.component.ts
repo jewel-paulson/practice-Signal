@@ -7,7 +7,7 @@ import { DataServices } from './data.service';
   selector: 'app-root',
   imports: [RouterOutlet, InputComponent],
   template: `
-      <h1>Angular Services Demo</h1>
+      <h1>Angular Signal Demo</h1>
     <div>
     <app-input (output)="receiveInput($event)"></app-input> 
     </div>
